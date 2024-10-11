@@ -1,6 +1,9 @@
 name: Convert Shadowrocket Rules to Surge Rules
 
-on: [push]
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
