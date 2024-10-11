@@ -1,0 +1,28 @@
+name: Convert Shadowrocket Rules to Surge Rules
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Convert conf to json
+      run: |
+        python convert_conf_to_json.py sr_top500_banlist.conf sbrule.json
+
+    - name: Commit and push JSON file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add sbrule.json
+        git commit -m "Update sbrule.json"
+        git push
