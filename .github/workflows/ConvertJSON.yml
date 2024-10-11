@@ -26,7 +26,20 @@ jobs:
       run: |
         python convert_conf_to_json.py sr_top500_banlist.conf sbrule.json
         rm sr_top500_banlist.conf
+        
+    - name: Check for changes in sbrule.json
+      id: check_changes
+      run: |
+        if git diff --quiet HEAD -- sbrule.json; then
+          echo "No changes in sbrule.json"
+          echo "::set-output name=changed::0"
+        else
+          echo "Changes detected in sbrule.json"
+          echo "::set-output name=changed::1"
+        fi
+        
     - name: Commit and push JSON file
+      if: steps.check_changes.outputs.changed == '1'
       run: |
         git config --local user.email "ftkey@qq.com"
         git config --local user.name "ftkey"
