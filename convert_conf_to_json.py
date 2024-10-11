@@ -10,9 +10,11 @@ def parse_conf(conf_file):
         for line in file:
             line = line.strip()
             if line.startswith('DOMAIN-SUFFIX,'):
-                rules['domain_suffix'].extend([s for s in line.split(',')[1] if s])
+                domain = line.split(',')[1].strip()
+                rules['domain_suffix'].extend(domain)
             elif line.startswith('IP-CIDR,'):
-                rules['ip_cidr'].extend([s for s in line.split(',')[1] if s])
+                ip_cidr = line.split(',')[1].strip()
+                rules['ip_cidr'].extend(ip_cidr)
     return rules
 
 def merge_rules(base_rules, new_rules):
