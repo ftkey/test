@@ -25,7 +25,7 @@ jobs:
     - name: Convert conf to json
       run: |
         python convert_conf_to_json.py sr_top500_banlist.conf sbrule.json
-        
+        rm sr_top500_banlist.conf
     - name: Commit and push JSON file
       run: |
         git config --local user.email "ftkey@qq.com"
