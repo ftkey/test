@@ -18,11 +18,3 @@ jobs:
     - name: Convert conf to json
       run: |
         python convert_conf_to_json.py sr_top500_banlist.conf sbrule.json
-
-    - name: Commit and push JSON file
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add sbrule.json
-        git commit -m "Update sbrule.json"
-        git push
