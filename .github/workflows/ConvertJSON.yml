@@ -32,14 +32,14 @@ jobs:
       run: |
         if git diff --quiet HEAD -- sbrule.json; then
           echo "No changes in sbrule.json"
-          echo "::set-output name=changed::0"
+          echo "changed=false" >> $GITHUB_ENV
         else
           echo "Changes detected in sbrule.json"
-          echo "::set-output name=changed::1"
+          echo "changed=true" >> $GITHUB_ENV
         fi
         
     - name: Commit and push JSON file
-      if: steps.check_changes.outputs.changed == '1'
+      if: ${{ env.changed == 'true' }}
       run: |
         git config --local user.email "ftkey@qq.com"
         git config --local user.name "ftkey"
