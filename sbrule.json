@@ -2,259 +2,175 @@
     "version": 1,
     "rules": [
         {
-            "domain_suffix": "tedcdn.com"
-        },
-        {
-            "domain_suffix": "t.me"
-        },
-        {
-            "domain_suffix": "tdesktop.com"
-        },
-        {
-            "domain_suffix": "telegra.ph"
-        },
-        {
-            "domain_suffix": "telegram.me"
-        },
-        {
-            "domain_suffix": "telegram.org"
-        },
-        {
-            "domain_suffix": "telesco.pe"
-        },
-        {
-            "ip_cidr": "91.108.56.0/22"
-        },
-        {
-            "ip_cidr": "91.108.4.0/22"
-        },
-        {
-            "ip_cidr": "91.108.8.0/22"
-        },
-        {
-            "ip_cidr": "91.108.16.0/22"
-        },
-        {
-            "ip_cidr": "91.108.12.0/22"
-        },
-        {
-            "ip_cidr": "149.154.160.0/20"
-        },
-        {
-            "ip_cidr": "91.105.192.0/23"
-        },
-        {
-            "ip_cidr": "91.108.20.0/22"
-        },
-        {
-            "ip_cidr": "185.76.151.0/24"
-        },
-        {
-            "ip_cidr": "2001:b28:f23d::/48"
-        },
-        {
-            "ip_cidr": "2001:b28:f23f::/48"
-        },
-        {
-            "ip_cidr": "2001:67c:4e8::/48"
-        },
-        {
-            "ip_cidr": "2001:b28:f23c::/48"
-        },
-        {
-            "ip_cidr": "2a0a:f280::/32"
-        },
-        {
-            "domain_suffix": "disquscdn.com"
-        },
-        {
-            "ip_cidr": "18.194.0.0/15"
-        },
-        {
-            "ip_cidr": "34.224.0.0/12"
-        },
-        {
-            "domain_suffix": "appledaily.tw"
-        },
-        {
-            "ip_cidr": "74.125.0.0/16"
-        },
-        {
-            "domain_suffix": "www-google-analytics.l.google.com"
-        },
-        {
-            "domain_suffix": "ssl-google-analytics.l.google.com"
-        },
-        {
-            "domain_suffix": "partnerad.l.google.com"
-        },
-        {
-            "domain_suffix": "pagead.l.google.com"
-        },
-        {
-            "domain_suffix": "pagead.google.com"
-        },
-        {
-            "domain_suffix": "pagead-tpc.l.google.com"
-        },
-        {
-            "domain_suffix": "mobileads.google.com"
-        },
-        {
-            "domain_suffix": "ads.google.com"
-        },
-        {
-            "domain_suffix": "afd.l.google.com"
-        },
-        {
-            "domain_suffix": "dowjones.com"
-        },
-        {
-            "domain_suffix": "bcbits.com"
-        },
-        {
-            "domain_suffix": "ogma.iad.appboy.com"
-        },
-        {
-            "domain_suffix": "odc.officeapps.live.com"
-        },
-        {
-            "domain_suffix": "skyapi.live.net"
-        },
-        {
-            "domain_suffix": "centralus1.mediap.svc.ms"
-        },
-        {
-            "domain_suffix": "dm.files.1drv.com"
-        },
-        {
-            "domain_suffix": "mobile.pipe.aria.microsoft.com"
-        },
-        {
-            "domain_suffix": "gate.hockeyapp.net"
-        },
-        {
-            "domain_suffix": "api.onedrive.com"
-        },
-        {
-            "domain_suffix": "vortex.data.microsoft.com"
-        },
-        {
-            "domain_suffix": "mendeley.com"
-        },
-        {
-            "domain_suffix": "news-events.apple.com"
-        },
-        {
-            "domain_suffix": "news-edge.apple.com"
-        },
-        {
-            "domain_suffix": "apple.comscoreresearch.com"
-        },
-        {
-            "domain_suffix": "play.itunes.apple.com"
-        },
-        {
-            "domain_suffix": "play-cdn.itunes-apple.com.akadns.net"
-        },
-        {
-            "domain_suffix": "cvws.apple-dns.net"
-        },
-        {
-            "domain_suffix": "news.apple-dns.net"
-        },
-        {
-            "domain_suffix": "gateway.fe.apple-dns.net"
-        },
-        {
-            "domain_suffix": "akamaiedge.net"
-        },
-        {
-            "domain_suffix": "gs-loc.apple.com"
-        },
-        {
-            "domain_suffix": "i-scmp.com"
-        },
-        {
-            "domain_suffix": "search.xxx"
-        },
-        {
-            "ip_cidr": "50.7.31.230/32"
-        },
-        {
-            "domain_keyword": "blogspot"
-        },
-        {
-            "domain_keyword": "google"
-        },
-        {
-            "domain_suffix": "akamaihd.net"
-        },
-        {
-            "domain_suffix": "azurewebsites.net"
-        },
-        {
-            "domain_suffix": "4sqi.net"
-        },
-        {
-            "domain_suffix": "news.now.com"
-        },
-        {
-            "domain_suffix": "picturedip.com"
-        },
-        {
-            "domain_suffix": "uchicago.edu"
-        },
-        {
-            "domain_suffix": "xda-developers.com"
-        },
-        {
-            "domain_keyword": "phobos"
-        },
-        {
-            "ip_cidr": "67.198.55.0/24"
-        },
-        {
-            "ip_cidr": "91.108.4.0/22"
-        },
-        {
-            "ip_cidr": "91.108.8.0/22"
-        },
-        {
-            "ip_cidr": "91.108.12.0/22"
-        },
-        {
-            "ip_cidr": "91.108.16.0/22"
-        },
-        {
-            "ip_cidr": "91.108.56.0/22"
-        },
-        {
-            "ip_cidr": "109.239.140.0/24"
-        },
-        {
-            "ip_cidr": "149.154.160.0/20"
-        },
-        {
-            "ip_cidr": "149.154.164.0/22"
-        },
-        {
-            "ip_cidr": "149.154.168.0/22"
-        },
-        {
-            "ip_cidr": "149.154.172.0/22"
-        },
-        {
-            "ip_cidr": "74.125.23.127/32"
-        },
-        {
-            "domain_suffix": "news.ycombinator.com"
-        },
-        {
-            "domain_suffix": "trustwallet.com"
-        },
-        {
-            "domain_suffix": "walletconnect.org"
+            "domain": [],
+            "domain_suffix": [
+                "tedcdn.com",
+                "Proxy",
+                "t.me",
+                "Proxy",
+                "tdesktop.com",
+                "Proxy",
+                "telegra.ph",
+                "Proxy",
+                "telegram.me",
+                "Proxy",
+                "telegram.org",
+                "Proxy",
+                "telesco.pe",
+                "Proxy",
+                "disquscdn.com",
+                "Proxy",
+                "appledaily.tw",
+                "Proxy",
+                "www-google-analytics.l.google.com",
+                "Proxy",
+                "ssl-google-analytics.l.google.com",
+                "Proxy",
+                "partnerad.l.google.com",
+                "Proxy",
+                "pagead.l.google.com",
+                "Proxy",
+                "pagead.google.com",
+                "Proxy",
+                "pagead-tpc.l.google.com",
+                "Proxy",
+                "mobileads.google.com",
+                "Proxy",
+                "ads.google.com",
+                "Proxy",
+                "afd.l.google.com",
+                "Proxy",
+                "dowjones.com",
+                "Proxy",
+                "bcbits.com",
+                "Proxy",
+                "ogma.iad.appboy.com",
+                "Proxy",
+                "odc.officeapps.live.com",
+                "Proxy",
+                "skyapi.live.net",
+                "Proxy",
+                "centralus1.mediap.svc.ms",
+                "Proxy",
+                "dm.files.1drv.com",
+                "Proxy",
+                "mobile.pipe.aria.microsoft.com",
+                "Proxy",
+                "gate.hockeyapp.net",
+                "Proxy",
+                "api.onedrive.com",
+                "Proxy",
+                "vortex.data.microsoft.com",
+                "Proxy",
+                "mendeley.com",
+                "Proxy",
+                "news-events.apple.com",
+                "Proxy",
+                "news-edge.apple.com",
+                "Proxy",
+                "apple.comscoreresearch.com",
+                "Proxy",
+                "play.itunes.apple.com",
+                "Proxy",
+                "play-cdn.itunes-apple.com.akadns.net",
+                "Proxy",
+                "cvws.apple-dns.net",
+                "Proxy",
+                "news.apple-dns.net",
+                "Proxy",
+                "gateway.fe.apple-dns.net",
+                "Proxy",
+                "akamaiedge.net",
+                "Proxy",
+                "gs-loc.apple.com",
+                "Proxy",
+                "i-scmp.com",
+                "Proxy",
+                "search.xxx",
+                "Proxy",
+                "akamaihd.net",
+                "Proxy",
+                "azurewebsites.net",
+                "Proxy",
+                "4sqi.net",
+                "Proxy",
+                "news.now.com",
+                "Proxy",
+                "picturedip.com",
+                "Proxy",
+                "uchicago.edu",
+                "Proxy",
+                "xda-developers.com",
+                "Proxy",
+                "news.ycombinator.com",
+                "Proxy",
+                "trustwallet.com",
+                "Proxy",
+                "walletconnect.org",
+                "Proxy"
+            ],
+            "ip_cidr": [
+                "91.108.56.0/22",
+                "Proxy",
+                "91.108.4.0/22",
+                "Proxy",
+                "91.108.8.0/22",
+                "Proxy",
+                "91.108.16.0/22",
+                "Proxy",
+                "91.108.12.0/22",
+                "Proxy",
+                "149.154.160.0/20",
+                "Proxy",
+                "91.105.192.0/23",
+                "Proxy",
+                "91.108.20.0/22",
+                "Proxy",
+                "185.76.151.0/24",
+                "Proxy",
+                "2001:b28:f23d::/48",
+                "Proxy",
+                "2001:b28:f23f::/48",
+                "Proxy",
+                "2001:67c:4e8::/48",
+                "Proxy",
+                "2001:b28:f23c::/48",
+                "Proxy",
+                "2a0a:f280::/32",
+                "Proxy",
+                "18.194.0.0/15",
+                "Proxy",
+                "34.224.0.0/12",
+                "Proxy",
+                "74.125.0.0/16",
+                "Proxy",
+                "50.7.31.230/32",
+                "Proxy",
+                "67.198.55.0/24",
+                "Proxy",
+                "91.108.4.0/22",
+                "Proxy",
+                "91.108.8.0/22",
+                "Proxy",
+                "91.108.12.0/22",
+                "Proxy",
+                "91.108.16.0/22",
+                "Proxy",
+                "91.108.56.0/22",
+                "Proxy",
+                "109.239.140.0/24",
+                "Proxy",
+                "149.154.160.0/20",
+                "Proxy",
+                "149.154.164.0/22",
+                "Proxy",
+                "149.154.168.0/22",
+                "Proxy",
+                "149.154.172.0/22",
+                "Proxy",
+                "74.125.23.127/32",
+                "Proxy"
+            ]
         }
     ]
 }
