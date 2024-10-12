@@ -25,15 +25,6 @@ def merge_rules(base_rules, new_rules):
             base_rules[key] = new_rules[key]
 
 def convert_conf_to_json(conf_file, json_file):
-    base_rules = json.load(open(json_file, 'r'))
-    new_rules = parse_conf(conf_file)
-    merge_rules(base_rules, new_rules)
-    output = {"version": 1, "rules": merge_rules}
-
-    with open(json_file, 'w') as f:
-        json.dump(base_rules, f, indent=4)
-
-def convert_conf_to_json(conf_file, json_file):
     rules = parse_conf(conf_file)
     output = {"version": 1, "rules": [rules]}
     with open(json_file, 'w') as f:
